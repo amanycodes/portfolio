@@ -180,7 +180,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
+      title: "Saltedpopcorn",
       href: "https://chatcollect.com",
       dates: "Jan 2024 - Feb 2024",
       active: true,
@@ -208,7 +208,7 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Magic UI",
+      title: "Distributed file server in Go",
       href: "https://magicui.design",
       dates: "June 2023 - Present",
       active: true,
@@ -240,7 +240,7 @@ export const DATA = {
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "llm.report",
+      title: "POSIX shell from Scratch in Go",
       href: "https://llm.report",
       dates: "April 2023 - September 2023",
       active: true,
