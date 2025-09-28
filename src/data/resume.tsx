@@ -9,28 +9,33 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/india",
   description:
     "Golang Developer with distributed systems and Open Source Wizardry.",
+  resumeUrl: "#", // replace with '/resume.pdf' or an external link
   summary:
     "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/pfp.jpeg",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
-    "Python",
     "Go",
-    "Postgres",
+    "Bash",
+    "YAML",
+    "SQL",
+    "Linux",
     "Docker",
+    "CI/CD",
+    "Git",
     "Kubernetes",
-    "Java",
-    "C++",
+    "AngularJS",
+    "Postgres",
   ],
+  // Programming Languages: Golang, C/C++, Bash, YAML, JavaScript, TypeScript, SQL
+// Web Development: HTML, CSS, Bootstrap, Tailwind UI, React, Angular, Node.js, Express.js, MongoDB, Mantine UI
+// DevOps & Cloud: Linux, Docker, GitLab CI/CD, Kubernetes, Prometheus, Thanos, Vercel, Netlify, Copacetic CLI
+// Tools & Other: Git, GitHub, Figma, Canva, Adobe Creative Suite, Postman, cURL
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "amannyadav07@gmail.com",
+    email: "amanycodes@gmail.com",
     tel: "+123456789",
     social: {
       GitHub: {
@@ -81,7 +86,7 @@ export const DATA = {
       start: "Jun 2025",
       end: "Aug 2025",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Engineered a bulk image patcher for 100+ container images via YAML configs, streamlining patch workflows.Created clear tabular summaries for multi-arch patch logs (1.5× readability) and enhanced Docusaurus docs clarity.Delivered 15+ PRs & opened 5+ issues in v0.11.0, adding core patch features, critical fixes, and full test coverage.",
     },
     {
       company: "CNCF Prometheus",
@@ -117,13 +122,13 @@ export const DATA = {
       start: "January 2019",
       end: "April 2019",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "Spearheaded Hygge P2P Admin Panel with 20+ configuration screens, enabling utilities to manage bids & permissions. Conceptualized a feature-hierarchy diagram for the P2P platform, mapping user roles, functions, and data flows. Implemented report export in the Carbon Accounting Tool, cutting manual data-extraction time by 50%.",
     },
     {
       company: "Cloudraft",
       href: "https://li.me/",
       badges: [],
-      location: "San Francisco, CA",
+      location: "Indore, India; Remote",
       title: "UI/UX Designer",
       logoUrl: "/lime.svg",
       start: "January 2018",
@@ -146,36 +151,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      school: "IIIT Gwalior",
+      href: "https://www.iiitm.ac.in/",
+      degree: "B.Tech in Information Technology",
       logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      start: "2021",
+      end: "2026",
     },
   ],
   projects: [
