@@ -16,7 +16,7 @@ export default function Page() {
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
-          <div className="gap-6 flex justify-between items-start">
+          <div className="gap-6 flex justify-between items-center">
             <div className="flex-col flex flex-1 space-y-3">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
@@ -31,7 +31,6 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              {/* ASCII/pixel avatar placeholder with Resume button */}
               <div className="flex flex-col items-center gap-3">
               <Avatar className="size-28 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />

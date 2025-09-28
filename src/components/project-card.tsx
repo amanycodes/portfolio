@@ -20,6 +20,7 @@ interface Props {
   link?: string;
   image?: string;
   video?: string;
+  status?: string;
   links?: readonly {
     icon: React.ReactNode;
     type: string;
@@ -37,6 +38,7 @@ export function ProjectCard({
   link,
   image,
   video,
+  status,
   links,
   className,
 }: Props) {
@@ -72,7 +74,14 @@ export function ProjectCard({
       </Link>
       <CardHeader className="px-2">
         <div className="space-y-1">
-          <CardTitle className="mt-1 text-base">{title}</CardTitle>
+          <div className="flex items-center gap-2">
+            <CardTitle className="mt-1 text-base">{title}</CardTitle>
+            {status && (
+              <Badge variant="secondary" className="px-2 py-0 text-[10px] uppercase tracking-wide">
+                {status}
+              </Badge>
+            )}
+          </div>
           {dates && <time className="font-sans text-xs">{dates}</time>}
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}

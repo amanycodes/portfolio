@@ -8,11 +8,11 @@ export const DATA = {
   location: "Bhopal, India",
   locationLink: "https://www.google.com/maps/place/india",
   description:
-    "Golang Developer with distributed systems and Open Source Wizardry.",
-  resumeUrl: "#", // replace with '/resume.pdf' or an external link
+    "Currently breaking pods and brewing k8s spells.",
+  resumeUrl: "/resume.pdf", // replace with '/resume.pdf' or an external link
   summary:
     "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/pfp.jpeg",
+  avatarUrl: "/pfp2.png",
   skills: [
     "Go",
     "Bash",
@@ -32,7 +32,7 @@ export const DATA = {
 // Tools & Other: Git, GitHub, Figma, Canva, Adobe Creative Suite, Postman, cURL
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "https://daitya.bearblog.dev/", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "amanycodes@gmail.com",

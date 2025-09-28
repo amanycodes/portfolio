@@ -1,18 +1,28 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { SITE } from "@/data/site";
 import { cn } from "@/lib/utils";
 
 export default function Navbar() {
   return (
     <header className="mb-10 sticky top-0 z-40">
-      {/* Cover bar (placeholder solid color) */}
-      <div
-        className="w-full h-20"
-        style={{ backgroundColor: SITE.cover.color }}
-      >
-        <div className="mx-auto max-w-6xl h-full flex items-center px-4">
+      {/* Cover image (replaces solid color) */}
+      <div className="relative w-full h-28 overflow-hidden">
+        {SITE.cover.image ? (
+          <Image
+            src={SITE.cover.image}
+            alt={`${SITE.title} cover`}
+            fill
+            priority
+            className="object-cover"
+          />
+        ) : (
+          <div className="w-full h-full" style={{ backgroundColor: SITE.cover.color }} />
+        )}
+        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 mx-auto max-w-6xl h-full flex items-center px-4">
           <span className="text-3xl font-bold tracking-wider lowercase">{SITE.title}</span>
         </div>
       </div>
